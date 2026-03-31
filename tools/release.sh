@@ -95,6 +95,7 @@ scripts/** -merge
 examples/** -merge
 assetes/** -merge
 SKILL.md -merge
+README.md -merge
 .gitattributes -merge
 .gitignore -merge
 EOF
@@ -134,6 +135,7 @@ KEEP_FILES=(
     "examples"
     "assets"
     "SKILL.md"
+    "README.md"
     ".gitattributes"  # 保留 merge 策略配置（仅 release 分支需要）
     ".gitignore"      # 保留 git 忽略规则
     ".git"            # Git 仓库目录，必须保留
@@ -179,8 +181,8 @@ if ! git diff-index --quiet HEAD --; then
     git add -A
     git commit -m "chore: cleanup release branch - keep only essential files
 
-- Keep: references/, scripts/, SKILL.md
-- Remove: development files, docs, examples, etc."
+- Keep: references/, scripts/, examples/, assets/, SKILL.md, README.md
+- Remove: development files, docs, etc."
     echo -e "${GREEN}✓ Cleanup changes committed${NC}"
 else
     echo -e "${YELLOW}⚠️  No changes to commit${NC}"
@@ -216,5 +218,8 @@ echo ""
 echo "🔗 Release branch content:"
 echo "  - references/"
 echo "  - scripts/"
+echo "  - examples/"
+echo "  - assets/"
 echo "  - SKILL.md"
+echo "  - README.md"
 echo ""
