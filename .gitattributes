@@ -1,0 +1,14 @@
+# Release 分支合并策略（白名单模式）
+# 默认：所有文件保持删除状态，只保留指定的文件/目录
+
+# 默认策略：所有文件使用 ours（保持 release 的删除状态）
+* merge=ours
+
+# 例外：这些文件/目录需要正常合并
+references/** -merge
+scripts/** -merge
+examples/** -merge
+assetes/** -merge
+SKILL.md -merge
+.gitattributes -merge
+.gitignore -merge
