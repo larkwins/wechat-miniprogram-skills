@@ -8,7 +8,7 @@
 references/** -merge
 scripts/** -merge
 examples/** -merge
-assetes/** -merge
+assets/** -merge
 SKILL.md -merge
 README.md -merge
 .gitattributes -merge
