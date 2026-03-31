@@ -1,7 +1,9 @@
-# 微信小程序开发 Skill
+# 微信小程序开发 Skills
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/your-repo/wechat-miniprogram-skill)
+
+![](./assets/images/wechat-miniprogram-skills.png)
 
 一个专为 AI 编程助手设计的微信小程序开发技能包，提供全面的开发指导、性能优化和最佳实践。
 
