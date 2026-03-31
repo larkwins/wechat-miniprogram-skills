@@ -10,5 +10,6 @@ scripts/** -merge
 examples/** -merge
 assetes/** -merge
 SKILL.md -merge
+README.md -merge
 .gitattributes -merge
 .gitignore -merge
