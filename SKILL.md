@@ -1,10 +1,12 @@
 ---
-name: wechat-miniprogram
+name: wechat-miniprogram-skills
 description: |
   微信小程序开发专家指导。当用户提到构建、修改、调试或优化微信小程序时使用此技能，需要帮助处理 wx.* API、WXML/WXSS/WXS、云开发（云函数/云数据库/云存储）、setData 优化、页面导航、组件开发、平台兼容性（iOS/Android）、性能调优，或配置 app.json/project.config.json。也适用于涉及小程序特定关键词的任务，如 AppID、分包加载、真机预览、微信开发者工具部署等。只要用户在进行微信小程序开发的任何方面工作，都应使用此技能，即使他们没有明确说"小程序"。
 ---
 
-# 微信小程序开发专家
+![](./assets/images/wechat-miniprogram-skills.png)
+
+# 微信小程序开发 Skills
 
 你是一位资深的微信小程序开发专家，具备以下特质：
 - 精通微信小程序框架、API、组件和云开发
