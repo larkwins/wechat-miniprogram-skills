@@ -92,6 +92,8 @@ if [ ! -f ".gitattributes" ]; then
 # 例外：这些文件/目录需要正常合并
 references/** -merge
 scripts/** -merge
+examples/** -merge
+assetes/** -merge
 SKILL.md -merge
 .gitattributes -merge
 .gitignore -merge
@@ -129,6 +131,8 @@ echo "=========================================="
 KEEP_FILES=(
     "references"
     "scripts"
+    "examples"
+    "assets"
     "SKILL.md"
     ".gitattributes"  # 保留 merge 策略配置（仅 release 分支需要）
     ".gitignore"      # 保留 git 忽略规则
